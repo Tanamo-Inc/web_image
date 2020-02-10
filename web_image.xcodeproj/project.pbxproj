@@ -37,6 +37,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0418000D23F1846900E1ADB0 /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				0418FFF823F180CC00E1ADB0 /* AppDelegate.swift */,
+				0418FFFA23F180CC00E1ADB0 /* SceneDelegate.swift */,
+				0418000123F180D100E1ADB0 /* Assets.xcassets */,
+				0418000323F180D100E1ADB0 /* LaunchScreen.storyboard */,
+			);
+			path = "supporting files";
+			sourceTree = "<group>";
+		};
 		0418FFEC23F180CC00E1ADB0 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +67,9 @@
 		0418FFF723F180CC00E1ADB0 /* web_image */ = {
 			isa = PBXGroup;
 			children = (
-				0418FFF823F180CC00E1ADB0 /* AppDelegate.swift */,
-				0418FFFA23F180CC00E1ADB0 /* SceneDelegate.swift */,
+				0418000D23F1846900E1ADB0 /* supporting files */,
 				0418FFFC23F180CC00E1ADB0 /* ViewController.swift */,
 				0418FFFE23F180CC00E1ADB0 /* Main.storyboard */,
-				0418000123F180D100E1ADB0 /* Assets.xcassets */,
-				0418000323F180D100E1ADB0 /* LaunchScreen.storyboard */,
 				0418000623F180D100E1ADB0 /* Info.plist */,
 			);
 			path = web_image;
